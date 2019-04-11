@@ -1,0 +1,213 @@
+/********************BASE STYLES*****************/
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #2b2b2b;
+}
+
+
+
+
+/**********GRID*******************/
+.full-width {
+
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+
+.half-width {
+
+    width: 50%;
+    float: left;
+
+}
+
+
+.third-width {
+
+    width: 33%;
+    float: left;
+
+}
+
+
+/*************HEADER********************/
+
+header {
+    height: 800px;
+    background: url('../img/full-background.png') no-repeat #fff;
+    background-size: cover;
+
+}
+
+/* Photo by rawpixel.com from Pexels */
+
+header h1 {
+    padding: 65px 0 65px 25px;
+    font-family: 'Playfair Display Bold', serif;
+    color: #b23a1c;
+    font-size: 30px;
+}
+
+nav {
+    float: right; 
+    padding: 75px 25px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    color: #828282;
+    padding-left: 80px; 
+}
+
+
+header h2 {
+    width: 100%;
+    clear: both;
+    font-family: 'Playfair Display', serif;
+    font-size: 72px;
+    line-height: 80px;
+    color: #5b5b5b;
+    padding: 20px 0 20px 25px;
+}
+
+
+header h2 span {
+    color: #2b2b2b;
+}
+
+header .full-width {
+    background: rgba(255, 255, 255, 0.85);/* White background with 85% opacity */
+    height: inherit;
+}
+
+/************ABOUT****************************/
+
+section, footer {
+    height: 700px;
+}
+
+#about .full-width {
+
+    padding: 80px 0;
+
+}
+
+
+#about h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    padding-left: 30px;
+}
+
+#about p {
+    font-size: 21px;
+    color: #5b5b5b;
+    line-height: 40px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+
+/***************WORK************************/
+
+#work, #portfolio {
+
+    background-color: #c9d8db;
+    text-align: center;
+
+}
+
+#work .full-width{
+
+    padding: 115px 0;
+
+}
+
+
+#work img {
+
+    padding-bottom: 30px;
+
+}
+
+#work h3 {
+    font-size: 24px;
+    line-height: 32px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+
+#work p {
+    font-family: 'Playfair Display', serif; 
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0 50px;
+}
+
+
+/**************CONTACT********************/
+
+#contact {
+    background-color: #EBEBEB;
+}
+
+#contact .full-width {
+    padding: 110px 0;
+}
+
+#contact #contact-image{
+
+    margin-left: 25px;
+    border: 12px solid #fff;
+    width: 600px;
+}
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+
+#contact #envelope {
+    padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    line-height: 44px;
+}
+#contact #email-header{
+    font-size: 32px;
+    font-weight: inherit;
+    line-height: 44px;
+    margin: -30px 0 5px 0;
+}
+#contact #socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+}
+#contact a {
+    text-decoration: none;
+    color: #197d93;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+    display: inline-block;
+}
+#contact ul img {
+    font-size: 32px;
+    padding-right: 48px;
+}
